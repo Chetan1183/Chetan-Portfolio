@@ -172,10 +172,10 @@ function Skills() {
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    I've worked with a wide variety of programming languages & frameworks.
+                    Proficient in cybersecurity tools and techniques, including network security, threat detection, and vulnerability assessment.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development, React.js & javascript!</strong></div>
+                    <div> Skilled in ethical hacking methodologies, such as <strong className="text-ubt-gedit-orange">penetration testing, brute force attacks, and privilege escalation.!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
