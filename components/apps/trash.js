@@ -15,12 +15,12 @@ export class Trash extends Component {
             },
             {
                 name: "node_modules",
-                icon: "./themes/Yaru/system/folder.png"
+                icon: "./themes/Yaru/system/mc-home-logo.png"
             },
 
             {
                 name: "abandoned project",
-                icon: "./themes/Yaru/system/folder.png"
+                icon: "./themes/Yaru/system/mc-home-logo.png"
             },
             {
                 name: "18BCP127 assignment name.zip",
@@ -28,11 +28,11 @@ export class Trash extends Component {
             },
             {
                 name: "project final",
-                icon: "./themes/Yaru/system/folder.png"
+                icon: "./themes/Yaru/system/mc-home-logo.png"
             },
             {
                 name: "project ultra-final",
-                icon: "./themes/Yaru/system/folder.png"
+                icon: "./themes/Yaru/system/mc-home-logo.png"
             },
 
         ];
@@ -72,7 +72,7 @@ export class Trash extends Component {
 
     showTrashItems = () => {
         return (
-            <div className="flex-grow ml-4 flex flex-wrap items-start content-start justify-start overflow-y-auto windowMainScreen">
+            <div className="flex-grow ml-4 flex flex-wrap items-start content-start justify-start overflow-y-auto windowMainScreen" style={{ backgroundColor: '#272a34' }}>
                 {
                     this.trashItems.map((item, index) => {
                         return (
@@ -91,9 +91,9 @@ export class Trash extends Component {
 
     render() {
         return (
-            <div className="w-full h-full flex flex-col bg-ub-cool-grey text-white select-none">
+            <div className="w-full h-full flex flex-col bg-ub-cool-grey text-white select-none" style={{ backgroundColor: '#272a34' }}>
                 <div className="flex items-center justify-between w-full bg-ub-warm-grey bg-opacity-40 text-sm">
-                    <span className="font-bold ml-2">Trash</span>
+                    <span className="font-bold ml-2" style={{ color: 'black' }}>Trash</span>
                     <div className="flex">
                         <div className="border border-black bg-black bg-opacity-50 px-3 py-1 my-1 mx-1 rounded text-gray-300">Restore</div>
                         <div onClick={this.emptyTrash} className="border border-black bg-black bg-opacity-50 px-3 py-1 my-1 mx-1 rounded hover:bg-opacity-80">Empty</div>
