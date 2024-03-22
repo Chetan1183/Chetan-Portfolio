@@ -144,7 +144,7 @@ function Education() {
                 
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Assabah Arts&Science college, Valayamkulam
+                        Assabah Arts&Science college
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
                     <div className=" text-sm md:text-base">Bachelor in Computer Application</div>
@@ -172,17 +172,10 @@ function Skills() {
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-<<<<<<< HEAD
                 Proficient in cybersecurity tools and techniques, including network security, threat detection, and vulnerability assessment.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> Skilled in ethical hacking methodologies, such as <strong className="text-ubt-gedit-orange"> penetration testing, brute force attacks, and privilege escalation.</strong></div>
-=======
-                    Proficient in cybersecurity tools and techniques, including network security, threat detection, and vulnerability assessment.
-                </li>
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div> Skilled in ethical hacking methodologies, such as <strong className="text-ubt-gedit-orange">penetration testing, brute force attacks, and privilege escalation.!</strong></div>
->>>>>>> e2f32091663fb43263cab4bbd5f29b08035578c0
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -195,17 +188,18 @@ function Skills() {
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center gap-2 items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-burp%20suite-%230D76B8?style=flat&logo=burpsuite&logoColor=FFFFFF&labelColor=%23EF7B42&color=%23EF7B42" alt="aslam burpsuite" />    
+                        <img className="m-1" src="https://img.shields.io/badge/-burp%20suite-%230D76B8?style=flat&logo=burpsuite&logoColor=FFFFFF&labelColor=%23EF7B42&color=%23EF7B42" alt="aslam burpsuite" />  
+                        <img className="m-1" src="https://img.shields.io/badge/-Metasploit-%230D76B8?style=flat&logo=metasploit&logoColor=000000&labelColor=%2318608C&color=%230D76B8" alt="aslam metasploit" />  
                         <img className="m-1" src="https://img.shields.io/badge/-arduino-%23009D9C?style=flat&logo=arduino&logoColor=000000&labelColor=%23009D9C&color=%23009D9C" alt="aslam arduino" />
-                        <img className="m-1" src="https://img.shields.io/badge/-Metasploit-%230D76B8?style=flat&logo=metasploit&logoColor=000000&labelColor=%2318608C&color=%230D76B8" alt="aslam metasploit" />
                         <img className="m-1" src="https://img.shields.io/badge/-wireshark-%23FFFFFF?style=flat&logo=wireshark&logoColor=&labelColor=%23&color=%2311358E" alt="aslam wireshark" />
-                        <img className="m-1" src="https://img.shields.io/badge/-Splunk-%23FFFFFF?style=flat&logo=splunk&logoColor=&labelColor=%23&color=%23EF5130" alt="aslam wireshark" />
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="aslam git" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Splunk-%23FFFFFF?style=flat&logo=splunk&logoColor=&labelColor=%23&color=%23EF5130" alt="aslam Splunk" />
+                        <img src="https://img.shields.io/badge/-Github-%23000000?style=flat&logo=github&logoColor=%23ffffff" alt="aslam github" />
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start gap-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
                         <img className=" m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="aslam python" />
+                        <img className=" m-1" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="aslam HTML" />
                         <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="aslam Javascript" />
                         
                     </div>
