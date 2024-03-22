@@ -125,7 +125,7 @@ function About() {
                 <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:x3rcyb@gmail.com'><u>x3rcyb@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
                 <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
-                <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications, offering me a broader perspective on cybersecurity challenges and solutions!!</li>
+                <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications.</li>
             </ul>
         </>
     )
