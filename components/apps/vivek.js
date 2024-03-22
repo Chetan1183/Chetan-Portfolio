@@ -123,9 +123,9 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:x3rcyb@gmail.com'><u>x3rcyb@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
-                <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
+                <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
+                <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
+                <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications, offering me a broader perspective on cybersecurity challenges and solutions!!</li>
             </ul>
         </>
     )

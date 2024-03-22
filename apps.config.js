@@ -21,7 +21,7 @@ const apps = [
     {
         id: "calc",
         title: "Calc",
-        icon: './themes/Yaru/apps/calc.png',
+        icon: './themes/Yaru/apps/calc-kali.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
@@ -30,7 +30,7 @@ const apps = [
     {
         id: "about-aslam",
         title: "About Aslam",
-        icon: './themes/Yaru/system/user-home.png',
+        icon: './themes/Yaru/system/mc-home-logo.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
@@ -48,7 +48,7 @@ const apps = [
     {
         id: "terminal",
         title: "Terminal",
-        icon: './themes/Yaru/apps/bash.png',
+        icon: './themes/Yaru/apps/kali-terminal.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
