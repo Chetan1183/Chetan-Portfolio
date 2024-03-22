@@ -172,10 +172,17 @@ function Skills() {
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+<<<<<<< HEAD
                 Proficient in cybersecurity tools and techniques, including network security, threat detection, and vulnerability assessment.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div> Skilled in ethical hacking methodologies, such as <strong className="text-ubt-gedit-orange"> penetration testing, brute force attacks, and privilege escalation.</strong></div>
+=======
+                    Proficient in cybersecurity tools and techniques, including network security, threat detection, and vulnerability assessment.
+                </li>
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <div> Skilled in ethical hacking methodologies, such as <strong className="text-ubt-gedit-orange">penetration testing, brute force attacks, and privilege escalation.!</strong></div>
+>>>>>>> e2f32091663fb43263cab4bbd5f29b08035578c0
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>

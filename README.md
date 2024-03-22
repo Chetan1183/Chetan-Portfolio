@@ -1,63 +1,48 @@
-# Web simulation of UbuntuOS
+# Kali Linux WebOS Simulation Portfolio
 
-This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
-If you want to edit this. Clone this project and edit the files in `/src/components`.
+Welcome to my Kali Linux-themed personal portfolio website! This project is a web simulation of the Kali Linux operating system, built using Next.js and Tailwind CSS.
 
-To run this on localhost
-type `npm start` and when u are done coding type `npm run build` to build your app.
+## Getting Started
 
-_NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
+To get started with this project, you can follow these simple steps:
 
-<a href="https://www.buymeacoffee.com/vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+1. **Clone the Repository**: Clone this project to your local machine using the following command:
+git clone https://github.com/x3rcyb/kali-linux-portfolio.git
 
-### To make the contact form work
+2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm or yarn:
+cd kali-linux-portfolio
+npm install
 
-- Create a account in [emailjs](https://www.emailjs.com/) create also new Outlook or Gmail account to be able
-  to send email.
-- Create a new service, select and log in to your newly created outlook or gmail account on EmailJS.
-- Go back to the dashboard and get the Service ID copy it.
-- Create a .env file in your root folder and put
+3. **Run the Project**: Start the development server to run the project locally:
+npm start
 
-```
+This will open the project in your default web browser at http://localhost:3000.
 
-NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
-NEXT_PUBLIC_TEMPLATE_ID = 'template_fqqqb9g'
-NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
+4. **Customize**: To customize the portfolio, edit the files located in the `/src/components` directory. Feel free to add your own content, images, or modify the layout as needed.
 
-```
+5. **Build for Production**: Once you're done customizing, you can build the project for production:
+npm run build
 
-into it. Replace \*your user id and your service ID with your values in your EmailJS service.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=vivek9patel/vivek9patel.github.io&type=Date)](https://star-history.com/#vivek9patel/vivek9patel.github.io&Date)
-
-## This project was made using Create Next App! Here is the scripts that u can run.
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will create an optimized build of your portfolio in the `build` folder, ready to be deployed.
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
+Contributions are welcome and appreciated! If you'd like to contribute to this project, follow these steps:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the repository.
+
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+
+3. Commit your changes (`git commit -m 'Added some AmazingFeature'`).
+
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+
+5. Open a pull request.
+
+6. message me on linkedin. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Special credits to [vivek9patel](https://www.linkedin.com/in/vivek9patel/) for creating the original Ubuntu version of this project. Thank you for your contribution to the open-source community!
