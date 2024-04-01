@@ -31,7 +31,7 @@ module.exports = {
     borderColor: theme => ({
       ...theme('colors'),
       DEFAULT: theme('colors.gray.300', 'currentColor'),
-      'ubb-orange': '#E95420'
+      'ubb-orange': '#2777FF'
     }),
     minWidth: {
       '0': '0',

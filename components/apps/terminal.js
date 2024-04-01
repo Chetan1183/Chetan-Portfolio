@@ -14,7 +14,7 @@ export class Terminal extends Component {
         this.child_directories = {
             root: ["projects", "personal-documents", "skills", "languages" , "interests"],
             skills: ["Vulnerability Assessment" , "Troubleshooting", "Burpsuite", "Metasploit", "Wireshark", "Nmap", "Splunk"],
-            projects: ["Smart-Panachayat", "eviltwin-portapack(IOT-project)"],
+            projects: ["Smart-Panachayat", "eviltwin-potable-device(IOT-project)"],
             interests: ["Social Engineering", "Intresting Technologies", "IOT","Offensive Security"],
             languages: ["Javascript", "Python","HTML"],
         };

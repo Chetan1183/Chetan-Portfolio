@@ -67,37 +67,23 @@ export class Gedit extends Component {
 
     render() {
         return (
-            <div className="w-full h-full relative flex flex-col bg-ub-cool-grey text-white select-none">
-                <div className="flex items-center justify-between w-full bg-ub-gedit-light bg-opacity-60 border-b border-t border-blue-400 text-sm">
-                    <span className="font-bold ml-2">Send a Message to Me</span>
-                    <div className="flex">
-                        <div onClick={this.sendMessage} className="border border-black bg-black bg-opacity-50 px-3 py-0.5 my-1 mx-1 rounded hover:bg-opacity-80">Send</div>
-                    </div>
-                </div>
-                <div className="relative flex-grow flex flex-col bg-ub-gedit-dark font-normal windowMainScreen">
-                    <div className="absolute left-0 top-0 h-full px-2 bg-ub-gedit-darker"></div>
-                    <div className="relative">
-                        <input id="sender-name" className=" w-full text-ubt-gedit-orange focus:bg-ub-gedit-light outline-none font-medium text-sm pl-6 py-0.5 bg-transparent" placeholder="Your Email / Name :" spellCheck="false" autoComplete="off" type="text" />
-                        <span className="absolute left-1 top-1/2 transform -translate-y-1/2 font-bold light text-sm text-ubt-gedit-blue">1</span>
-                    </div>
-                    <div className="relative">
-                        <input id="sender-subject" className=" w-full my-1 text-ubt-gedit-blue focus:bg-ub-gedit-light gedit-subject outline-none text-sm font-normal pl-6 py-0.5 bg-transparent" placeholder="subject (may be a feedback for this website!)" spellCheck="false" autoComplete="off" type="text" />
-                        <span className="absolute left-1 top-1/2 transform -translate-y-1/2 font-bold  text-sm text-ubt-gedit-blue">2</span>
-                    </div>
-                    <div className="relative flex-grow">
-                        <textarea id="sender-message" className=" w-full gedit-message font-light text-sm resize-none h-full windowMainScreen outline-none tracking-wider pl-6 py-1 bg-transparent" placeholder="Message" spellCheck="false" autoComplete="none" type="text" />
-                        <span className="absolute left-1 top-1 font-bold  text-sm text-ubt-gedit-blue">3</span>
-                    </div>
-                </div>
-                {
-                    (this.state.sending
-                        ?
-                        <div className="flex justify-center items-center animate-pulse h-full w-full bg-gray-400 bg-opacity-30 absolute top-0 left-0">
-                            <img className={" w-8 absolute animate-spin"} src="./themes/Yaru/status/process-working-symbolic.svg" alt="Ubuntu Process Symbol" />
-                        </div>
-                        : null
-                    )
-                }
+            <div className="w-full h-full relative flex gap-5 p-5  bg-[#282c34] text-white select-none ">
+                <a href="https://www.linkedin.com/in/aslamx3r/" className="flex flex-col h-max justify-center items-center" target="_blank">
+                    <img src="/images/logos/linkedin.png" className="h-16 w-16"></img>
+                    <span classname="text-center">linkedin</span>
+                </a>
+                <a href="mailto:x3rcyb@gmail.com" className="flex flex-col h-max justify-center items-center"  target="_blank">
+                    <img src="/images/logos/email.png" className="h-16 w-16"></img>
+                    <span>mail</span>
+                </a>
+                <a href="https://medium.com/@x3r" className="flex flex-col h-max justify-center items-center" target="_blank">
+                    <img src="/images/logos/medium.png" className="h-16 w-16"></img>
+                    <span>medium</span>
+                </a>
+                <a href="https://discord.gg/96fThXW3" className="flex flex-col h-max justify-center items-center" target="_blank">
+                    <img src="/images/logos/discord.png" className="h-16 w-16"></img>
+                    <span>discord</span>
+                </a>
             </div>
         )
     }

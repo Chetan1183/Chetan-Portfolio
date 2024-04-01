@@ -217,6 +217,15 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
+            name: "eviltwin-potable-device(IOT-project)",
+            date: "Jan 2024 -March 2024",
+            link: "https://github.com/x3rcyb/Evil-Twin-UI-Makeover",
+            description: [
+                "This portable Evil Twin device project was born out of my curiosity about WiFi attacks, offering a convenient tool for conducting Evil Twin attacks.",
+            ],
+            domains: ["Arduino IDE (C++)", "HTML","CSS" ]
+        },
+        {
             name: "Smart Panchayath",
             date: "Aug 2022 -Mar 2023",
             link: "https://github.com/x3rcyb/smart-panchayat",
