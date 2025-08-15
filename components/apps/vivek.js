@@ -217,12 +217,18 @@ function Experiance() {
             className="w-24 h-auto max-h-20 object-contain bg-white p-1 border border-gray-400 shadow-sm rounded-md"
         />
         <div>
-            <div className="text-lg md:text-xl text-left font-bold leading-tight">
-                MarkGenic Software PVT LTD, Pune
-            </div>
-            <div className="text-sm text-gray-400 mt-0.5">January 2023 - May 2025</div>
-            <div className="text-sm md:text-base">Security Analyst</div>
-        </div>
+  <div className="text-lg md:text-xl text-left font-bold leading-tight">
+    MarkGenic Software PVT LTD, Pune
+  </div>
+  <div className="text-sm text-gray-400 mt-0.5">January 2023 - May 2025</div>
+  <div className="text-sm md:text-base">Security Analyst</div>
+  <ul className="list-disc list-inside text-sm md:text-base mt-1 text-gray-700">
+    <li>Performed end-to-end Vulnerability Assessment and Penetration Testing (VAPT) for web and API security, identifying and mitigating critical security risks, reducing vulnerabilities by 30%.</li>
+    <li>Executed security testing using Burp Suite, OWASP ZAP, Nmap, Metasploit, and SQLmap, uncovering OWASP Top 10 vulnerabilities including Broken Authentication, Access Control, HTTP Smuggling, XXE, and Insecure Deserialization.</li>
+    <li>Conducted security audits, generated detailed risk assessment reports, and provided actionable recommendations to strengthen cybersecurity defenses.</li>
+    <li>Automated security testing processes, improving efficiency and reducing manual effort by 40%, ensuring faster vulnerability detection and remediation.</li>
+  </ul>
+</div>
     </li>
 
     <li className="list-disc flex items-start gap-3 mt-5">
@@ -232,12 +238,22 @@ function Experiance() {
             className="w-24 h-auto max-h-20 object-contain bg-white p-1 border border-gray-400 shadow-sm rounded-md"
         />
         <div>
-            <div className="text-lg md:text-xl text-left font-bold leading-tight">
-                CyRAACS, Mumbai
-            </div>
-            <div className="text-sm text-gray-400 mt-0.5">May 2025 - Present</div>
-            <div className="text-sm md:text-base">Cybersecurity Consultant</div>
-        </div>
+  
+  <div className="text-lg md:text-xl text-left font-bold leading-tight">
+    Cyraacs, Mumbai
+  </div>
+  <div className="text-sm text-gray-400 mt-0.5">May 2025 - Present</div>
+  <div className="text-sm md:text-base">Cybersecurity Consultant – Technical Services</div>
+  <ul className="list-disc list-inside text-sm md:text-base mt-1 text-gray-700">
+    <li>Performed comprehensive security testing for India’s leading banking platforms, covering Web, UPI, Android, and iOS channels.</li>
+    <li>Conducted functional, integration, and regression testing to ensure seamless payment flows across multiple merchant types and transaction scenarios.</li>
+    <li>Executed 3DS2 authentication, PCI-DSS compliance checks, and encryption validation for secure transaction processing.</li>
+    <li>Validated transaction life cycle events including authorization, capture, refund, cancellation, and chargeback flows.</li>
+    <li>Tested UPI mandates, collect requests, intent-based payments, and QR code scanning for complete end-to-end reliability.</li>
+    <li>Performed positive, negative, and edge-case scenarios to assess system behavior under high load and network disruptions.</li>
+    <li>Compiled and submitted detailed VAPT reports to clients, outlining confirmed findings and providing prioritized remediation recommendations.</li>
+  </ul>
+</div>
     </li>
 </ul>
 
