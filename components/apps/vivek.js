@@ -17,6 +17,7 @@ export class AboutVivek extends Component {
         this.screens = {
             "about": <About />,
             "education": <Education />,
+            "experiance":<Experiance />,
             "skills": <Skills />,
             "projects": <Projects />,
             "resume": <Resume />,
@@ -55,23 +56,29 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about aslam" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about Chetan" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="Chetan' education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
+
+                <div id="experiance" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "experiance" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
+                    <img className=" w-3 md:w-4" alt="Chetan' experiance" src="./themes/Yaru/status/education.svg" />
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Experiance</span>
+
+                </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam' skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="asChetanlam' skills" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam' projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="Chetan' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam's resume" src="./themes/Yaru/status/download.svg" />
+                    <img className=" w-3 md:w-4" alt="Chetan's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
             </>
@@ -114,18 +121,18 @@ function About() {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">mohd aslam</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">CyberSecurity Researcher!</span></div>
+                <div>my name is Chetan Chaudhari <span className="font-bold"></span> ,</div>
+                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">CyberSecurity Consultant!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:x3rcyb@gmail.com'><u>x3rcyb@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
-                <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
-                <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications.</li>
+                <li className=" list-pc">I'm a <span className=" font-medium"></span> Results-driven Security Analyst with 2+ years of experience in Web & API Security Testing, specializing in Vulnerability Assessment and Penetration Testing (VAPT)! ( Hit me up <a className='text-underline' href='mailto:chetanchaudhari1183@gmail.com'><u>chetanchaudhari1183@gmail.com</u></a> :) )</li>
+                <li className=" mt-3 list-building">Proficient in manual & automated security testing, identifying and mitigating security risks in web applications, APIs, and networks. </li>
+                <li className=" mt-3 list-time"> Skilled in security tools such as Burp Suite, Nessus, and OWASP ZAP. <a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
+                <li className=" mt-3 list-star"> Strong understanding of OWASP Top 10, API Security, and Web Application Security. Passionate about securing applications and continuously learning advanced attack techniques.</li>
             </ul>
         </>
     )
@@ -144,22 +151,54 @@ function Education() {
                 
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Assabah Arts&Science college
+                        DR D Y Patil School Of MCA
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
-                    <div className=" text-sm md:text-base">Bachelor in Computer Application</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2023 - 2025</div>
+                    <div className=" text-sm md:text-base">Master of Computer Application</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (IHRD)
+                        Sangamner College Sangamner
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2020</div>
-                    <div className=" text-sm md:text-base">computer Sceience, Maths, Science(Integrated Science)</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
+                    <div className=" text-sm md:text-base">Bachelor Of Computer Science</div>
                 </li>
             </ul>
         </>
     )
 }
+
+function Experiance() {
+    return (
+        <>
+            <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+                Education
+                <div className="absolute pt-px bg-white mt-px top-full w-full">
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+                </div>
+            </div>
+            <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
+                
+                <li className="list-disc">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        DR D Y Patil School Of MCA
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2023 - 2025</div>
+                    <div className=" text-sm md:text-base">Master of Computer Application</div>
+                </li>
+                <li className="list-disc mt-5">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        Sangamner College Sangamner
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
+                    <div className=" text-sm md:text-base">Bachelor Of Computer Science</div>
+                </li>
+            </ul>
+        </>
+    )
+}
+
 function Skills() {
     return (
         <>
@@ -188,26 +227,26 @@ function Skills() {
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center gap-2 items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-burp%20suite-%230D76B8?style=flat&logo=burpsuite&logoColor=FFFFFF&labelColor=%23EF7B42&color=%23EF7B42" alt="aslam burpsuite" />  
-                        <img className="m-1" src="https://img.shields.io/badge/-Metasploit-%230D76B8?style=flat&logo=metasploit&logoColor=000000&labelColor=%2318608C&color=%230D76B8" alt="aslam metasploit" />  
-                        <img className="m-1" src="https://img.shields.io/badge/-arduino-%23009D9C?style=flat&logo=arduino&logoColor=000000&labelColor=%23009D9C&color=%23009D9C" alt="aslam arduino" />
-                        <img className="m-1" src="https://img.shields.io/badge/-wireshark-%23FFFFFF?style=flat&logo=wireshark&logoColor=&labelColor=%23&color=%2311358E" alt="aslam wireshark" />
-                        <img className="m-1" src="https://img.shields.io/badge/-Splunk-%23FFFFFF?style=flat&logo=splunk&logoColor=&labelColor=%23&color=%23EF5130" alt="aslam Splunk" />
-                        <img src="https://img.shields.io/badge/-Github-%23000000?style=flat&logo=github&logoColor=%23ffffff" alt="aslam github" />
+                        <img className="m-1" src="https://img.shields.io/badge/-burp%20suite-%230D76B8?style=flat&logo=burpsuite&logoColor=FFFFFF&labelColor=%23EF7B42&color=%23EF7B42" alt="Chetan burpsuite" />  
+                        <img className="m-1" src="https://img.shields.io/badge/-Metasploit-%230D76B8?style=flat&logo=metasploit&logoColor=000000&labelColor=%2318608C&color=%230D76B8" alt="Chetan metasploit" />  
+                        <img className="m-1" src="https://img.shields.io/badge/-arduino-%23009D9C?style=flat&logo=arduino&logoColor=000000&labelColor=%23009D9C&color=%23009D9C" alt="Chetan arduino" />
+                        <img className="m-1" src="https://img.shields.io/badge/-wireshark-%23FFFFFF?style=flat&logo=wireshark&logoColor=&labelColor=%23&color=%2311358E" alt="Chetan wireshark" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Splunk-%23FFFFFF?style=flat&logo=splunk&logoColor=&labelColor=%23&color=%23EF5130" alt="Chetan Splunk" />
+                        <img src="https://img.shields.io/badge/-Github-%23000000?style=flat&logo=github&logoColor=%23ffffff" alt="Chetan github" />
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start gap-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="aslam python" />
-                        <img className=" m-1" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="aslam HTML" />
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="aslam Javascript" />
+                        <img className=" m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="Chetan python" />
+                        <img className=" m-1" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Chetan HTML" />
+                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="Chetan Javascript" />
                         
                     </div>
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="aslam linux" /> <span>!</span>
+                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="Chetan linux" /> <span>!</span>
                 </li>
             </ul>
         </>
@@ -308,6 +347,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/mohd-aslam-resume.pdf" title="mohd aslam resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Chetan-Chaudhari-Resume.pdf" title="Chetan chaudhari Resume" frameBorder="0"></iframe>
     )
 }
