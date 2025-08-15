@@ -128,45 +128,76 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
-            <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium"></span> Results-driven Security Analyst with 2+ years of experience in Web & API Security Testing, specializing in Vulnerability Assessment and Penetration Testing (VAPT)! ( Hit me up <a className='text-underline' href='mailto:chetanchaudhari1183@gmail.com'><u>chetanchaudhari1183@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building">Proficient in manual & automated security testing, identifying and mitigating security risks in web applications, APIs, and networks. </li>
-                <li className=" mt-3 list-time"> Skilled in security tools such as Burp Suite, Nessus, and OWASP ZAP. <a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
-                <li className=" mt-3 list-star"> Strong understanding of OWASP Top 10, API Security, and Web Application Security. Passionate about securing applications and continuously learning advanced attack techniques.</li>
-            </ul>
+            <ul className="mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
+    <li className="list-pc">
+        I'm a <span className="font-medium"></span> Results-driven Security Analyst with 2.5+ years of experience in Web, API, and Payment Gateway Security Testing, specializing in Vulnerability Assessment and Penetration Testing (VAPT)! ( Hit me up <a className='text-underline' href='mailto:chetanchaudhari1183@gmail.com'><u>chetanchaudhari1183@gmail.com</u></a> :) )
+    </li>
+    <li className="mt-3 list-building">
+        Proficient in manual & automated security testing, identifying and mitigating security risks in web applications, APIs, payment gateways, and networks.
+    </li>
+    <li className="mt-3 list-time">
+        Skilled in security tools such as Burp Suite Pro, Nessus, Nmap, OWASP ZAP, Nikto, Dirb, SSLScan, Postman, and JWT.io. Experienced in testing across Web, UPI, Android, and iOS channels.
+    </li>
+    <li className="mt-3 list-star">
+        Strong understanding of OWASP Top 10, OWASP API Top 10, PCI-DSS compliance, 3DS2 authentication, and Payment Gateway transaction flows (authorization, capture, refund, cancellation, chargeback). Passionate about securing applications and continuously learning advanced attack techniques.
+    </li>
+</ul>
+
         </>
     )
 }
+// 
 function Education() {
     return (
         <>
-            <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+            <div className="font-medium relative text-2xl mt-2 md:mt-4 mb-4">
                 Education
                 <div className="absolute pt-px bg-white mt-px top-full w-full">
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
-                
-                <li className="list-disc">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        DR D Y Patil School Of MCA
+
+            <ul className="w-10/12 mt-4 ml-4 px-0 md:px-1">
+
+                <li className="list-disc flex items-center gap-4">
+<img
+    src="/images/logos/Aj.jpg"
+    alt="DR D Y Patil School Of MCA Logo"
+    className="w-24 h-auto max-h-20 object-contain bg-white p-1 border border-gray-400 shadow-sm rounded-md"
+/>
+
+
+
+                    <div>
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            DR D Y Patil School Of MCA
+                        </div>
+                        <div className="text-sm text-gray-400 mt-0.5">2023 - 2025</div>
+                        <div className="text-sm md:text-base">Master of Computer Application</div>
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2023 - 2025</div>
-                    <div className=" text-sm md:text-base">Master of Computer Application</div>
                 </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Sangamner College Sangamner
+
+                <li className="list-disc flex items-center gap-4 mt-5">
+                    <img
+    src="/images/logos/Sangamner.png"
+    alt="S. N. Arts, D. J. Malpani Commerce and B. N. Sarda Science College Logo"
+    className="w-24 h-auto max-h-20 object-contain bg-white p-1 border border-gray-400 shadow-sm rounded-md"
+/>
+                    <div>
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            S. N. Arts, D. J. Malpani Commerce and B. N. Sarda Science College
+                        </div>
+                        <div className="text-sm text-gray-400 mt-0.5">2020 - 2023</div>
+                        <div className="text-sm md:text-base">Bachelor Of Computer Science</div>
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
-                    <div className=" text-sm md:text-base">Bachelor Of Computer Science</div>
                 </li>
+
             </ul>
         </>
     )
 }
+
 
 function Experiance() {
     return (
@@ -178,23 +209,40 @@ function Experiance() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
-                
-                <li className="list-disc">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        DR D Y Patil School Of MCA
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2023 - 2025</div>
-                    <div className=" text-sm md:text-base">Master of Computer Application</div>
-                </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Sangamner College Sangamner
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2023</div>
-                    <div className=" text-sm md:text-base">Bachelor Of Computer Science</div>
-                </li>
-            </ul>
+<ul className="w-10/12 mt-4 ml-4 px-0 md:px-1">
+    <li className="list-disc flex items-start gap-3">
+        <img
+            src="/images/logos/Mark.png"
+            alt="MarkGenic Software PVT LTD Logo"
+            className="w-24 h-auto max-h-20 object-contain bg-white p-1 border border-gray-400 shadow-sm rounded-md"
+        />
+        <div>
+            <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                MarkGenic Software PVT LTD, Pune
+            </div>
+            <div className="text-sm text-gray-400 mt-0.5">January 2023 - May 2025</div>
+            <div className="text-sm md:text-base">Security Analyst</div>
+        </div>
+    </li>
+
+    <li className="list-disc flex items-start gap-3 mt-5">
+        <img
+            src="/images/logos/Cyr.png"
+            alt="CyRAACS Logo"
+            className="w-24 h-auto max-h-20 object-contain bg-white p-1 border border-gray-400 shadow-sm rounded-md"
+        />
+        <div>
+            <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                CyRAACS, Mumbai
+            </div>
+            <div className="text-sm text-gray-400 mt-0.5">May 2025 - Present</div>
+            <div className="text-sm md:text-base">Cybersecurity Consultant</div>
+        </div>
+    </li>
+</ul>
+
+
+
         </>
     )
 }
@@ -229,9 +277,13 @@ function Skills() {
                     <div className="flex flex-wrap justify-center gap-2 items-start w-full mt-2">
                         <img className="m-1" src="https://img.shields.io/badge/-burp%20suite-%230D76B8?style=flat&logo=burpsuite&logoColor=FFFFFF&labelColor=%23EF7B42&color=%23EF7B42" alt="Chetan burpsuite" />  
                         <img className="m-1" src="https://img.shields.io/badge/-Metasploit-%230D76B8?style=flat&logo=metasploit&logoColor=000000&labelColor=%2318608C&color=%230D76B8" alt="Chetan metasploit" />  
-                        <img className="m-1" src="https://img.shields.io/badge/-arduino-%23009D9C?style=flat&logo=arduino&logoColor=000000&labelColor=%23009D9C&color=%23009D9C" alt="Chetan arduino" />
-                        <img className="m-1" src="https://img.shields.io/badge/-wireshark-%23FFFFFF?style=flat&logo=wireshark&logoColor=&labelColor=%23&color=%2311358E" alt="Chetan wireshark" />
-                        <img className="m-1" src="https://img.shields.io/badge/-Splunk-%23FFFFFF?style=flat&logo=splunk&logoColor=&labelColor=%23&color=%23EF5130" alt="Chetan Splunk" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Nmap-%230D76B8?style=flat&logo=gnometerminal&logoColor=FFFFFF&labelColor=%23008080&color=%23008080" alt="Chetan Nmap" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Dirb-%230D76B8?style=flat&logo=gnu-bash&logoColor=FFFFFF&labelColor=%23008000&color=%23008000" alt="Chetan Dirb" />
+                        <img className="m-1" src="https://img.shields.io/badge/-OWASP%20ZAP-%230D76B8?style=flat&logo=owasp&logoColor=FFFFFF&labelColor=%23000080&color=%23000080" alt="Chetan OWASP ZAP" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Nikto-%230D76B8?style=flat&logo=linux&logoColor=FFFFFF&labelColor=%23800000&color=%23800000" alt="Chetan Nikto" />
+                        <img className="m-1" src="https://img.shields.io/badge/-SQLMap-%230D76B8?style=flat&logo=mysql&logoColor=FFFFFF&labelColor=%23F29111&color=%23F29111" alt="Chetan SQLMap" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Kali%20Linux-%230D76B8?style=flat&logo=kalilinux&logoColor=FFFFFF&labelColor=%230D76B8&color=%230D76B8" alt="Chetan Kali Linux" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Wireshark-%230D76B8?style=flat&logo=wireshark&logoColor=FFFFFF&labelColor=%23006C99&color=%23006C99" alt="Chetan Wireshark" />
                         <img src="https://img.shields.io/badge/-Github-%23000000?style=flat&logo=github&logoColor=%23ffffff" alt="Chetan github" />
                     </div>
                 </div>
@@ -255,23 +307,60 @@ function Skills() {
 
 function Projects() {
     const project_list = [
+        
         {
-            name: "eviltwin-potable-device(IOT-project)",
-            date: "Jan 2024 -March 2024",
-            link: "https://github.com/x3rcyb/Evil-Twin-UI-Makeover",
+            name: "Payment Gateway Security Testing",
+            date: "Apr 2025 -Present",
+            link: "https://github.com/Chetan1183/",
             description: [
-                "This portable Evil Twin device project was born out of my curiosity about WiFi attacks, offering a convenient tool for conducting Evil Twin attacks.",
+                "JPerformed end-to-end security testing for India’s leading banking platforms across Web, UPI, Android, and iOS channels. Conducted functional, integration, and regression testing for various merchant types, validating 3DS2 authentication, PCI-DSS compliance, and encryption standards. Verified full transaction life cycle flows (authorization, capture, refund, cancellation, chargeback) and tested UPI mandates, collect requests, intent payments, and QR scanning. Executed positive, negative, and stress scenarios to evaluate performance under load and disruptions. Delivered detailed VAPT reports with confirmed findings and remediation guidance. ",
             ],
-            domains: ["Arduino IDE (C++)", "HTML","CSS" ]
+            domains: ["Payment Gateway Security", "UPI Testing", "Mobile Application Security", "PCI-DSS Compliance", "3DS2 Authentication", "Functional Testing", "Regression Testing", "Burp Suite"]
+
+        },
+
+         {
+            name: "Web Application VAPT",
+            date: "Feb 2023 -Apr 2025",
+            link: "https://github.com/Chetan1183/",
+            description: [
+                "Conducted end-to-end VAPT, including information gathering via client questionnaires, reconnaissance using Kali Linux tools (Nikto, Nmap, SSLScan, Dirb), and active vulnerability assessment with Burp Suite Pro and OWASP ZAP. Verified findings, removed false positives, and performed penetration testing targeting OWASP Top 10 and other critical flaws. Delivered detailed reports with confirmed vulnerabilities and remediation recommendations.",
+            ],
+           domains: ["Web Application Security", "VAPT", "Kali Linux", "Nikto", "Nmap", "SSLScan", "Dirb", "Burp Suite Pro", "OWASP ZAP"]
+
+        },
+
+         {
+            name: "API VAPT",
+            date: "Feb 2023 -Apr 2025",
+            link: "https://github.com/Chetan1183/",
+            description: [
+                "Performed comprehensive API security testing, starting with analysis of Swagger, Postman collections, and OpenAPI specifications to map endpoints and functionalities. Utilized Postman, Burp Suite, and JWT.io to assess authentication, authorization, and configuration issues. Conducted vulnerability assessments targeting BOLA, authentication flaws, data exposure, and mass assignment, along with penetration testing for OWASP API Top 10 risks including SQLi, SSRF, IDOR, and broken access control. Delivered detailed reports outlining findings, impact, and remediation recommendations.",
+            ],
+            domains: ["API Security", "Postman", "Burp Suite", "JWT.io", "OWASP API Top 10"]
+
+        },
+
+
+         
+
+        {
+            name: "Local-Area-Search-Engine-Management-System",
+            date: "Jan 2024 -March 2024",
+            link: "https://github.com/Chetan1183/Local-Area-Search-Engine-Management-System",
+            description: [
+                "The Local Area Search Engine Management System is a web-based platform designed to help users discover businesses, services, and points of interest within a specific geographic area. The system enables efficient indexing, categorization, and retrieval of local data, providing accurate and location-relevant search results. Features include business listing management, real-time updates, user reviews, map integration, and advanced filtering options. Ideal for both residents and visitors, the system enhances local discovery and promotes community engagement.",
+            ],
+            domains: ["PHP","MySQL", "HTML","CSS" ]
         },
         {
-            name: "Smart Panchayath",
+            name: "JARVIS-IN-PYTHON",
             date: "Aug 2022 -Mar 2023",
-            link: "https://github.com/x3rcyb/smart-panchayat",
+            link: "https://github.com/Chetan1183/JARVIS-IN-PYTHON",
             description: [
-                "The Smart Panchayat project is a modernization initiative aimed at revolutionizing rural governance through technology and digital solutions. ",
+                "JARVIS is a Voice-Based AI Assistant which is developed in Python Programming Language. It uses Different Technologies To Add New Unique Features. It can Automate Tasks with just One Voice Command. ",
             ],
-            domains: ["javascript", "Css", "HTML" , "Python"]
+            domains: ["Css", "HTML" , "Python"]
         },
     ];
 
